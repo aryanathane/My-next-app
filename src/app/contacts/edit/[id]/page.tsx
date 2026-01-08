@@ -1,9 +1,17 @@
-import React from 'react'
+import ContactForm from '@/app/_components/ContactForm'
+import { updateContactAction } from '@/app/actions/contact'
+import { getContactsById } from '@/app/api/contact';
+import React, { use } from 'react'
 
-const EditPage = () => {
+const EditPage = ({params}:{params:Promise<{id:string}>}) => {
+  const {id}=use(params) ;
+  const contact= use(getContactsById(id));
+  console.log(contact);
+  
   return (
     <div>
-      Edit Contacts
+      <h1>Edit contact</h1>
+      <ContactForm action={updateContactAction} contact={contact}/>
     </div>
   )
 }

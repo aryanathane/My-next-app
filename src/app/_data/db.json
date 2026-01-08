@@ -1,18 +1,30 @@
 {
-    "contacts":[
-        {
-        "id":"1",
-        "name":"Aryan",
-        "email":"aryanathane@gmail.com",
-        "userId":"1"
-        }
-    ],
-    "users":[
-        {
-            "id":"1",
-            "name":"user1",
-            "email":"useremail@gmail.com",
-            "password":"12345678"
-        }
-    ]
+  "contacts": [
+    {
+      "name": "user1",
+      "email": "useremail1313@gmail.com",
+      "userId": "1",
+      "id": "1"
+    },
+    {
+      "id": "a83d",
+      "name": "aryan",
+      "email": "vivek.22210547@viit.ac.in",
+      "userId": "1"
+    },
+    {
+      "id": "dac5",
+      "name": "aryan",
+      "email": "vivek.22210547@viit.ac.in",
+      "userId": "1"
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "name": "user1",
+      "email": "useremail@gmail.com",
+      "password": "12345678"
+    }
+  ]
 }
